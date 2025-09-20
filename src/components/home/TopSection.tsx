@@ -10,15 +10,15 @@ interface HeroProps {
 }
 
 const TopSection: React.FC<HeroProps> = ({
-  videoSrc = "/imgs/realestate.mp4", // change to your video path or URL
-  posterSrc = "/imags/hero-poster.jpg", // fallback image
+  // videoSrc = "/imgs/realestate.mp4", // change to your video path or URL
+  // posterSrc = "/imags/hero-poster.jpg", // fallback image
   title = "Start Early. Save More. Buy with Confidence.",
   subtitle = "Discover hand-picked early-investment properties in Dubai’s prime locations—trusted by new investors and backed by the city’s award-winning developers.",
 }) => {
   return (
     <section className="relative w-full h-screen overflow-hidden">
       {/* Video (fill) */}
-      <video
+      {/* <video
         className="absolute inset-0 w-full h-full object-cover"
         src={videoSrc}
         poster={posterSrc}
@@ -27,7 +27,8 @@ const TopSection: React.FC<HeroProps> = ({
         loop
         playsInline
         aria-hidden="true"
-      />
+      /> */}
+      <img src="/imgs/Beach-Residence-6.webp" className="absolute inset-0 w-full h-full object-cover"></img>
 
       {/* Overlay for opacity + tint */}
       <div className="absolute inset-0 bg-black/60 " />

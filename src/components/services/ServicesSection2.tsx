@@ -151,7 +151,7 @@ const PropertySection: React.FC<SectionProps> = ({
       <div
         className={`flex flex-col md:flex-row ${
           reverse ? "md:flex-row-reverse" : ""
-        } items-center gap-10 bg-white rounded-2xl border-1 border-gray-200 p-4 sm:p-8`}
+        } items-center gap-10 bg-white rounded-2xl border-1 border-gray-200 p-2 sm:p-8`}
       >
         {/* Text Content */}
         <div className="flex-1">

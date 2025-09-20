@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 const ServicesSection1: React.FC = () => {
   return (
     <section id="services" className="px-4 py-6 bg-gray-50">
-      <div className="container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-12 items-center">
         {/* Left Content */}
         <div>
           {/* Small Heading */}
@@ -16,7 +16,7 @@ const ServicesSection1: React.FC = () => {
           </div>
 
           {/* Main Heading */}
-          <h2 className="text-3xl md:text-4xl font-bold leading-snug text-[#1A3E72] mb-6">
+          <h2 className="text-2xl md:text-4xl font-bold leading-snug text-[#1A3E72] mb-6">
             Newest Off-Plan Projects & Prime Investment Opportunities
 
           </h2>
