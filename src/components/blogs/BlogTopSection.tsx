@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 const BlogTopSection: React.FC = () => {
   return (
-    <section id="services" className="px-4 py-6 bg-gray-50">
+    <section id="blog" className="px-4 py-6 bg-gray-50">
       <div className="container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div>

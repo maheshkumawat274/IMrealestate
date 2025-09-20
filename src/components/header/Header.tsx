@@ -8,14 +8,14 @@ const navLinks = [
   { name: "About Us", to: "#aboutus" },
   { name: "Our Properties", to: "#properties" },
   { name: "Our Blog", to: "#blog" },
-  { name: "Contact Us", to: "#contact" },
+  { name: "Contact Us", to: "#contactus" },
 ];
 const navLinksmobile = [
   { name: "Home", to: "#home" },
   { name: "About Us", to: "#aboutus" },
   { name: "Our Properties", to: "#properties" },
   { name: "Our Blog", to: "#blog" },
-  { name: "Contact Us", to: "#contact" },
+  { name: "Contact Us", to: "#contactus" },
 ];
 
 const Header: React.FC = () => {

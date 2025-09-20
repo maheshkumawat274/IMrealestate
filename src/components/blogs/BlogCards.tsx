@@ -16,7 +16,7 @@ const blogs: Blog[] = [
       "Explore expert tips, market trends, and exclusive opportunities in Dubai’s off-plan property market...",
     content:
       "Here is the complete blog content for Dubai off-plan property. You can write long detailed blogs here fetched from database or CMS.",
-    image: "/imgs/blog1.jpg",
+    image: "/imgs/Premium-villa-6.webp",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const blogs: Blog[] = [
       "Make informed decisions with expert advice tailored to off-plan real estate. Discover the best strategies...",
     content:
       "This is the detailed version of Smart Off-Plan Moves blog post. Admin can update the content from dashboard...",
-    image: "/imgs/blog2.jpg",
+    image: "/imgs/Premium-villa-5.webp",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const blogs: Blog[] = [
       "Buying off-plan doesn’t have to be complex. We break down the process into simple steps—from project selection...",
     content:
       "Complete blog explaining how off-plan investments are simplified. This section will show full details when clicking read more.",
-    image: "/imgs/blog3.jpg",
+    image: "/imgs/Premium-villa-7.webp",
   },
 ];
 

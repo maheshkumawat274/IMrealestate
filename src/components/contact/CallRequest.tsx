@@ -1,6 +1,6 @@
 const CallRequest = () => {
   return (
-    <div className="relative flex justify-center items-center py-16 w-full px-4 bg-[url('/imgs/Beach-Residence-2.webp')] bg-cover bg-center">
+    <div id="contactus" className="relative flex justify-center items-center py-16 w-full px-4 bg-[url('/imgs/Beach-Residence-2.webp')] bg-cover bg-center">
       {/* Overlay for opacity */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
