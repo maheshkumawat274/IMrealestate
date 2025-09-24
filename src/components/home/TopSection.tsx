@@ -16,7 +16,7 @@ const TopSection: React.FC<HeroProps> = ({
   subtitle = "Discover hand-picked early-investment properties in Dubai’s prime locations—trusted by new investors and backed by the city’s award-winning developers.",
 }) => {
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full h-[70vh] md:h-screen overflow-hidden">
       {/* Video (fill) */}
       {/* <video
         className="absolute inset-0 w-full h-full object-cover"
