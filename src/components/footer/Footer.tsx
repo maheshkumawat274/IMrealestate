@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10">
           {/* Logo & Social */}
           <div>
-            <h1 className="text-4xl font-bold text-indigo-100 mb-4">Properties</h1>
+            <h1 className="text-4xl font-bold text-indigo-100 mb-4">Own Dubai Properties</h1>
             <p className="text-md font-semibold text-gray-300">
               We are dedicated to delivering exceptional solutions for a smooth, rewarding real estate journey.
             </p>
@@ -26,7 +26,7 @@ export default function Footer() {
               <li className="hover:underline"><a href="#aboutus">About Us</a></li>
               <li className="hover:underline"><a href="#properties">Our Properties</a></li>
               <li className="hover:underline"><a href="#blog">Our Blog</a></li>
-              <li className="hover:underline"><a href="#contact">Contact Us</a></li>
+              <li className="hover:underline"><a href="#contactus">Contact Us</a></li>
             </ul>
           </div>
 
@@ -50,7 +50,7 @@ export default function Footer() {
                   href="mailto:info@reservationflights.com" 
                   className="hover:underline text-gray-300"
                 >
-                  info@reservationflights.com
+                  info@owndubaiproperties.com
                 </a>
               </li>
               

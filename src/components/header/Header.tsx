@@ -45,11 +45,10 @@ const Header: React.FC = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-14 py-4 flex items-center justify-between">
         <a href="#home" className="flex items-center space-x-2" onClick={handleLinkClick}>
           <img
-            src="./imgs/profile2.png" // Replace with your profile image
+            src="/imgs/Own Dubai Properties Logo.png" // Replace with your profile image
             alt="Profile"
-            className="w-12 h-12 rounded-full "
+            className="w-16 h-16 rounded-full"
           />
-          <span className="text-gray-300 font-bold text-xl md:text-2xl">Properties</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -87,11 +86,11 @@ const Header: React.FC = () => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.3 }}
-            className="fixed top-0 right-0 w-full h-full bg-[#0b0b0c] z-50 shadow-lg"
+            className="fixed top-0 right-0 w-full h-full bg-[#CECECE] z-50 shadow-lg"
           >
             {/* Close button */}
             <div className="flex justify-end p-4">
-              <button onClick={() => setMenuOpen(false)} className="text-gray-300">
+              <button onClick={() => setMenuOpen(false)} className="text-gray-800">
                 <X size={32} />
               </button>
             </div>
@@ -99,11 +98,10 @@ const Header: React.FC = () => {
             {/* Profile section */}
             <div className="flex flex-col items-center px-6">
               <img
-                src="./imgs/profile2.png" // Replace with your profile image
+                src="/imgs/Own Dubai Properties Logo.png" // Replace with your profile image
                 alt="Profile"
-                className="w-24 h-24 rounded-full border-4 border-gray-700"
+                className="w-24 h-24"
               />
-              <h1 className="text-gray-300 font-bold text-xl mt-2 pb-2">Properties</h1>
             </div>
 
             {/* Nav links */}
@@ -113,7 +111,7 @@ const Header: React.FC = () => {
                   <a
                     href={link.to}
                     onClick={handleLinkClick}
-                    className="flex items-center text-lg font-medium transition-colors duration-150 text-gray-300 hover:text-[#1ec258]"
+                    className="flex items-center text-lg font-medium transition-colors duration-150 text-gray-700 hover:text-yellow-500"
                   >
                     {link.name}
                   </a>
